@@ -128,7 +128,7 @@ nav {
   align-items: center;
 }
 
-nav button {
+nav .btn {
   display: none;
 }
 
@@ -460,7 +460,7 @@ header {
 
   /* ========= NAVBAR ======== */
 
-  nav button {
+  nav .btn {
     display: inline-block;
     background: transparent;
     font-size: 1.8rem;
@@ -468,7 +468,7 @@ header {
     cursor: pointer;
   }
 
-  nav button#close-menu-btn {
+  nav .btn#close-menu-btn {
     display: none;
   }
 
@@ -489,7 +489,6 @@ header {
     animation: animateNAV 400ms linear forwards;
     transform-origin: top right;
     opacity: 0;
-
   }
 
   .nav__menu li:nth-child(2) {
@@ -581,9 +580,7 @@ header {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
-
 }
-
 
 /* ============ MEDIA QUERIES (PHONES) ============ */
 @media screen and (max-width: 700px) {
@@ -651,5 +648,4 @@ header {
   .footer__socials {
     justify-content: center;
   }
-
 }
